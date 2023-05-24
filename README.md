@@ -12,4 +12,4 @@ SCRIPT
 In the script, in the function, there is the line message="$1"
 This line permit to use the first argument that we give after calling the function as the text that we send in the mail.
 
-So, if you want to modify what's inside the mail, you have to modify this line in the Loop : send_email "Your custo message"
+So, if you want to modify what's inside the mail, you have to modify this line in the Loop : send_email "Your custom message"
