@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # IP ADDRESS
-ip_address="10.14.182.11"
+ip_address="192.168.1.10"
 
 # MAIL
-recipient="zabbix.bastien@gmail.com"
+recipient="YourMail@example.com"
 
 # SUBJECT
-subject="Ping échoué"
+subject="Ping Failed "
 
 # EMAIL FUNCTION
 send_email() {
@@ -23,7 +23,7 @@ do
         echo "Ping réussi vers $ip_address"
     else
         echo "Échec du ping vers $ip_address"
-        send_email "Le ping vers $ip_address a échoué."
+        send_email "The ping to $ip_address failed."
     fi
 
     sleep 30  # Waiting Time
