@@ -20,7 +20,7 @@ while true
 do
     if ping -c 1 "$ip_address" >/dev/null 2>&1
     then
-        echo "Successful ping to  $ip_address"
+        echo "Ping to $ip_address Succesfull"
     else
         echo "Ping to $ip_address failed "
         send_email "The ping to $ip_address failed."
